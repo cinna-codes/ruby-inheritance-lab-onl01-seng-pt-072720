@@ -6,7 +6,7 @@ class Student < User
   end
 
   def learn(lesson)
-    self.knowledge << lesson
+    @knowledge << lesson
   end
 
 end
